@@ -1,0 +1,145 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABBAY UNCHEK Landing Page</title>
+    <style>
+        /* CSS untuk Styling */
+        body {
+            /* Warna latar belakang utama seperti pada desain */
+            background-color: #1a1a1a; 
+            color: #ffffff; /* Warna teks default */
+            font-family: Arial, sans-serif; /* Font sederhana */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px; /* Ukuran maksimal agar mirip tampilan mobile/Instagram */
+            padding: 20px;
+        }
+
+        .header-text {
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .image-section {
+            background-color: #555555; /* Warna latar belakang abu-abu untuk area gambar */
+            padding: 10px;
+            border-radius: 5px; /* Sedikit pembulatan sudut jika diinginkan */
+            margin-bottom: 40px;
+            /* Mengatur kontainer gambar agar ukurannya pas dengan gambar utama */
+            display: inline-block; 
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .main-image {
+            /* Image 1: Neutral Simple Landing Pages Tips Instagram Carousel Post.jpg (ABBY UNCHEK logo di atas tekstur semen) */
+            width: 100%;
+            height: auto;
+            display: block;
+            /* Gaya tambahan agar logo terlihat pas di tengah */
+            background-image: url('Neutral Simple Landing Pages Tips Instagram Carousel Post.jpg');
+            background-size: cover;
+            background-position: center;
+            /* Untuk memastikan kotak gambar mengambil ukuran yang tepat */
+            width: 350px; 
+            height: 350px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #ccc;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+
+        .order-button-container {
+            margin-top: 10px;
+        }
+
+        .order-button {
+            /* Gaya untuk Image 2: Neutral Simple Landing Pages Tips Instagram Carousel Post - 4.png (Tombol ORDER NOW) */
+            display: block;
+            width: 250px;
+            padding: 10px 0;
+            margin: 0 auto;
+            border: 2px solid #ff0000; /* Garis merah */
+            border-radius: 50px; /* Bentuk kapsul */
+            background-color: #1a1a1a; /* Latar belakang hitam/gelap */
+            color: #ff0000; /* Warna teks merah */
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .order-button:hover {
+            background-color: #ff0000;
+            color: #1a1a1a;
+        }
+        
+        /* Tambahkan font yang mirip dengan desain jika menggunakan Google Fonts */
+        /* Anda bisa menambahkan link font di <head> jika perlu */
+        /* @import url('https://fonts.googleapis.com/css2?family=...&display=swap'); */
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header-text">
+            S E L A M A T &nbsp; D A T A N G
+        </div>
+
+        <div class="image-section">
+            <div class="main-image"></div>
+        </div>
+
+        <div class="text-section">
+            <div class="title">
+                ABBAY UNCHEK
+            </div>
+            <div class="subtitle">
+                Store terpercaya dan bergaransi anti zonk.
+            </div>
+            
+            <div class="tagline">
+                FAST, T R U S T E D, A N T I Z O N K
+            </div>
+
+            <div class="order-button-container">
+                <a href="https://wa.me/62882007470485?text=bang+mau+beli+unchek+gacor" class="order-button" target="_blank">
+                    ORDER NOW
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
